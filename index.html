@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FBFAFA"/>
+    <title>DOG PRIVILEGE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="./bgMenu.js" defer></script>
+    <script src="./screenSize.js" defer></script>
+</head>
+<body>
+    <main>
+        <div id="tailleFenetre"></div>
+
+        <!-- Header -->
+
+        <header>
+
+                <div id="bgMenu" class="wrapper-container">
+                    <img src="./assets/bgMenu.webp" alt="Bouton Burger Menu" id="bg-trigger">
+                </div>  
+
+                <nav id="navigationMenu">  
+                    <div class="wrapper-container nav-content ">
+                        <ul>
+                            <li class="navBtn"><a href="#apprendreEnGroupe">À Propos</a></li>
+                            <li class="navBtn"><a href="#ccm">Comment ça marche</a></li>
+                        </ul>
+                        <ul>
+                            <li class="navBtn"><a href="./galerie.html">Galerie Photos</a></li>
+                            <li class="navBtn"><a href="#bf">Site Partenaire</a></li>
+                            <li class="navBtn"><a href="#contact">Contact</a></li>
+                            <li class="navBtn"><a href="https://www.instagram.com" target="_blank" id="ig-logo"><img src="./assets/instagram.webp" alt="Logo Instagram"></a></li>
+                        </ul>
+                        <button id="closeNav">X</button>    
+                    </div>         
+                </nav>
+
+                <div class="wrapper-container hero-content">
+                    <div id="hero-left">
+                        <img src="./assets/Logo_black.webp" id="hero-logo" alt="Logo Dog Privilege">
+                        <p>Depuis 1999</p>
+                        <h4>“Le privilège d’offrir à votre chien tous les bienfaits d’une promenade en forêt”</h4>
+                        <a href="#apprendreGroupe">Découvrir</a>
+                    </div>
+                    <div id="hero-right">
+                        <img src="./assets/hero-image.webp" id="hero-image" alt="Photo d'un chien devant la Tour Eiffel">
+                    </div>
+                </div>
+
+        </header>
+        
+        <!-- Apprendre en Groupe -->
+
+        <div id="apprendreEnGroupe" >
+                <div class="aeg-bandeau">
+                    <div class="wrapper-container aeg-bandeau-content">
+                        <div id="comprehension" class="section">
+                            <img src="./assets/patte_de_chien.webp" alt="Dessin d'une patte de chien">
+                            <p>Compréhension canine</p>
+                        </div>
+                        <div id="securite" class="section">
+                            <img src="./assets/securite.webp" alt="Dessin d'un point de localisation symbolisant la sécurité">
+                            <p>Sécurité</p>
+                        </div>
+                        <div id="patience" class="section">
+                            <img src="./assets/horloge.webp" alt="Dessin d'une hrologe">
+                            <p>Patience et persévérence</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-container aeg-content">
+                    <div id="aeg-left">
+                        <h1>Apprendre en groupe</h1>
+                        <h2>"Ça change tout"</h2>
+                        <p>Pour apprendre (les bases de sociabilisation indispensable) à votre chien ou <span>corriger</span> quelques petits <span>défauts</span> de comportement déjà installés, rien de tel qu’une <span>promenade collective</span>.</p>
+                        <p>Dans un groupe déjà hiérarchisé et obéissant, <span>l’effet de mimétisme</span> est très efficace.</p>
+                        <p>Un chien qui se <span>dépense</span> et se <span>détend</span> est beaucoup plus à même de répondre <span>positivement</span> aux sollicitations.</p>
+                    </div>
+                    <div id="aeg-right">
+                        <img src="./assets/Jerome.webp" alt="Image de homme à côté d'un Golden Retriever">
+                    </div>
+                </div>  
+        </div>
+        
+        
+        <!-- Le bien être animal -->
+        
+        
+        <div id="bien-etre">
+            <div class="be-border wrapper-container">
+                <div id="be-content">
+                    <section>
+                    <h2>Le bien-être animal avant tout</h2>
+                    <p>Je <span>privilégie</span> les groupes <span>restreints</span> et homogènes. Une fois votre chien <span>intégré</span> à un groupe il le <span>retrouvera</span> régulièrement <span>sans stress</span> d’adaptation à une nouvelle <span>meute</span>.</p>
+                    </section>
+                    <hr>
+                    <section>
+                        <h2>Les bénéfices du jeu</h2>
+                        <p>Votre chien se dépense et joue avec ses congénères. Mais pas seulement.
+                            Durant cette phase, je l’observe et corrige les comportements inappropriés éventuels. Dans un <span>mode positif</span> alliant caresse et récompense.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Groupe Restreint -->
+
+        <div id="groupeRestreint">
+            <div id="gp-content" class="wrapper-container">
+                <div id="gp-left" class="gp-section">
+                    <img src="./assets/groupe_restreint.webp" alt="Photo d'un homme donnant des friandises à des chiens">
+                </div>
+                <div id="gp-right" class="gp-section">
+                    <h2>En groupe restreint</h2>
+                    <p>Un petit groupe a pour premier bénéfice <span>d’écourter</span> le temps de <span>trajet</span> et offrir un plus grand confort à votre chien. Raison pour laquelle je privilégie les quartiers de l’ouest parisien (principalement le 16ème arrondissement).</p>
+                    <p>A l’issue d’une promenade éducative, votre chien se révélera plus <span>calme</span>, plus <span>équilibré</span> et plus <span>sociable</span>. Les bénéfices acquis s'installeront de <span></span>manière perenne et deviendront un mode comportemental normal de votre chien.</p>
+                    <p>Pour vous convaincre, il suffira de voir la fête que fera votre chien en me voyant le prendre pour sa balade.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- CCM -->
+        
+        <div id="ccm">
+            <section id="ccm-header">
+                <hr>
+                <h1>COMMENT CA <br> MARCHE ?</h1>
+                <hr>
+            </section>
+            <div id="ccm-content" class="wrapper-container">
+                <div class="box" id="ccm-box1" style="background: #7C7C78;">
+                    <div class="cercle">
+                        <p class="ccm-number">1</p>
+                    </div>
+                    <p class="ccm-texte">Prise en charge à 
+                        votre <span>domicile</span></p>
+                </div>
+                <div class="box" id="ccm-box2" style="background: #ABA291;">
+                    <div class="cercle">
+                        <p class="ccm-number">2</p>
+                    </div>
+                    <p class="ccm-texte">1h30 <span>effective</span>
+                        de promenade en <span>forêt</span></p>
+                </div>
+                <div class="box" id="ccm-box3" style="background: #676c5c;">
+                    <div class="cercle">
+                        <p class="ccm-number">3</p>
+                    </div>
+                    <p class="ccm-texte">Retour de votre chien
+                        <span>détendu</span> et <span>apaisé</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Témoignage -->
+
+        <!-- <div id="temoignage">
+            <div id="tem-content">
+                <h2>TÉMOIGNAGE</h2>
+                <hr id="tem-line">
+                <a href="#" class="arrow" id="arrow-l"><img src="./assets/arrow.png" alt=""></a>
+                <div id="avis">
+                    <h5 id="personne">Alexandra F.</h5>
+                    <p>« Lorsque j'ai adopté Bouli mon cocker, il avait déjà un an et demi et n'obéissait pas du tout. Rappel, marche au pied, tout était à faire. J'ai pris RV avec un éducateur. Sa méthode était trop musclée. Le collier étrangleur qu’il recommandait faisait tousser Bouli à force d'être serré à la glotte ! J’ai laissé tomber.J'en étais donc à me débrouiller toute seule (et assez mal) lorsque j'ai rencontré Jérôme par hasard, en me baladant au Bois de Boulogne. Le voir « manager » avec calme et brio sa meute de chiens est un vrai spectacle ! Et comme il est sympathique, on a bavardé. Je n'ai pas pu m'empêcher de lui demander son avis, et au lieu de me répondre tout à trac, il a préféré prendre le temps d'observer Bouli d'abord. Enfin quelqu'un qui ne m'assène pas trente-six conseils à peine s'est-on serré la main et qui prend le temps de découvrir en quoi mon Bouli est unique. Bien sûr, les chiens répondent à de grandes lois de comportement commune à leur espèce et leur race, mais chacun est un individu à part entière, avec une histoire singulière. Et ça, Jérôme le sait. Il a également observé comment je m'y prenais avec Bouli.Jérôme n'a pas d'idées arrêtées, c'est un pragmatique qui a du flair et connaît et aime les chiens. Son idée est à la fois simple et révolutionnaire: à chaque chien, une méthode, celle qui "marche" étant la bonne ! L'autre idée géniale qu'il a eu, c'est d'enseigner aux chiens des règles de savoir-vivre pendant qu'ils se détendent. C'est l'éducation en s'amusant. »</p>
+                    <h6>Neuilly-sur-Seine</h6>
+                </div>
+                <a href="#" class="arrow" id="arrow-r"><img src="./assets/arrow.png" alt=""></a>
+            </div>
+        </div> -->
+        
+        <!-- Contact -->
+
+        <div id="contact">
+            <div id="contact-content">
+                <img src="./assets/angleUp.svg" alt="Dessin d'un angle" id="angle-up">
+                <div class="contact-section">
+                    <img src="./assets/Logo_black.webp" alt="Logo Dog Privilege" id="contact-logo">
+                    <p>PARIS</p>
+                </div>
+                <div class="contact-section">
+                    <h2 style="font-weight: bold; margin-top: 30px;">Jérôme Coudeyrat</h2>
+                    <h1>Comportementaliste canin</h1>
+                </div>
+                <div class="contact-section">
+                    <p>Tel: +33 6 11 02 57 11</p>
+                    <p>info@dog-privilege.fr</p>
+                </div>
+                <form action="mailto:info@dog-privilege.fr
+                " method="post" enctype="text/plain">
+                    <input type="submit" value="CONTACTER">
+                </form>
+                <img src="./assets/angleDwn.svg" alt="Dessin d'un angle" id="angle-dwn">
+            </div>
+                <p id="couverture-resp">Couverture en Responsabilité civile Professionnelle
+                    Conforme aux exigences de la profession.</p>
+        </div>
+
+        <!-- Partenaires -->
+        
+
+        <div id="partenaires">
+            <section class="part-content wrapper-container" id="bf">
+                <div class="part-title">
+                    <h1>SITES PARTENAIRES</h1>
+                </div>
+                <div id="bf-header">
+                    <img src="./assets/beaute-logo.webp" alt="Logo du site partenaire Beauté féline">
+                    <p>Un toilettage pour chat à domicile</p>
+                </div>
+                <div id="bf-content">
+                    <div id="bf-left" class="bf-section">
+                        <img src="./assets/beaute-feline.webp" alt="Image d'un chat sur un lavabo">
+                    </div>
+                    <div id="bf-right" class="bf-section">
+                        <p>Découvrez Karine, une toiletteuse pour chats passionnée et expérimentée. Après des années en tant que chef de projet dans l'industrie de la dermocosmétique, elle a décidé de suivre sa passion pour les animaux et s'est formée au toilettage des chiens et des chats. Grâce à sa compréhension des codes félins et à son expertise dans le démêlage des fourrures, Karine propose un service de toilettage personnalisé à votre domicile, offrant calme et sérénité à vos chats.</p>
+                        <a href="https://www.beautefeline.fr/" target="_blank" rel="noopener noreferrer">VISITER</a>
+                        <p style="font-weight: bold;">Pour une prise en charge individualisée sur Paris</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="part-content wrapper-container" id="lsc">
+                    <div id="lsc-header">
+                        <h2>LA SUITE CANINE</h2>
+                        <p>Votre pension familiale pour le bien-être de votre chien</p>
+                    </div>
+                    <div id="lsc-content">
+                        <div id="lsc-left" class="lsc-section">
+                            <p id="lsc-description">Découvrez la pension canine d'Olivier Munoz, un éducateur et comportementaliste canin passionné. Avec sa gentillesse et son expertise, Olivier sait prendre soin des chiens tout en les aidant à se sentir à l'aise avec leurs congénères. En tant qu'éducateur canin expérimenté, il comprend les besoins comportementaux dei veille à leur bien-être pendant leur séjour. Confiez votre chien à la pension d'Olivier, il recevra des soins attentifs dans un environnement sécurisé et chaleureux.</p>
+                            <div id="lsc-contact">
+                                <hr>
+                                <p class="lsc-contact" style="font-weight: bold;">Olivier Munoz</p>
+                                <p class="lsc-contact">+33 6 18 56 65 48</p>
+                                <a id="lsc-link" href="mailto:contact@lasuitecanine.com">contact@lasuitecanine.com</a>
+                            </div>
+                        </div>
+                        <div id="lsc-right" class="lsc-section">
+                            <img src="./assets/suite-canine.webp" alt="Image de chiens jouant dans un jardin">
+                        </div>
+                    </div>
+            </section>  
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <img src="./assets/Logo_black.webp" alt="Logo de Dog Privilege">
+            <ul>
+                <li><a href="#apprendreEnGroupe">À Propos</a></li>
+                <li><a href="./galerie.html">Galerie Photos</a></li>
+                <li><a href="#bf">Site Partenaire</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./mentionsLegales.html">Mentions Légales</a></li>
+            </ul>
+            <hr>
+            <p>© 2023 THELMA</p>
+        </footer>
+    </main>
+</body>
+</html>
